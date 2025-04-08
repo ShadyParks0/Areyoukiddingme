@@ -1992,7 +1992,7 @@ class BiomePresence():
                     if not self.detection_running or self.reconnecting_state or self.auto_pop_state or self.current_biome == "GLITCHED": return
 
                     x, y = first_item_slot_pos
-                    slot_x = x + (slot_index * 193)
+                    slot_x = x + (slot_index * 135)
                     autoit.mouse_click("left", slot_x, y, 2)
                     time.sleep(0.15)
 
